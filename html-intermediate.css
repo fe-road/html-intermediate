@@ -1,0 +1,20 @@
+.section {
+    height: 2000px;
+}
+
+.section a {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.section-1 {
+    background-color: aliceblue;
+}
+
+.section-2 {
+    background-color: lightpink;
+}
+
+.hidden {
+    display: none;
+}

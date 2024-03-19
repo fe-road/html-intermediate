@@ -1,0 +1,57 @@
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    color: #343434;
+}
+
+.main-container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    color: rgb(2, 132, 199);
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.field-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.field-label {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+}
+
+.field {
+    border: none;
+    width: 40%;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.field-textarea {
+    width: 60%;
+    height: 80px;
+}
+
+.send-button {
+    background-color: rgb(2, 132, 199);
+    color: white;
+    width: 40%;
+    height: 42px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HTML Intermediate</title>
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="./html-intermediate.css" />
+        
+        <meta charset="UTF-8" />
+        <meta name="description" content="A page for someone learning HTML" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+        <menu>
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+            </ul>
+        </menu>
+
+        <input type="search" />
+
+        <input type="password" aria-describedby="passwordInstructions" />
+        <span id="passwordInstructions">Enter a strong password (at least 8 characters)</span>
+
+        <section id="sectionIntroduction" class="section section-1">
+            <a href="#sectionAboutUs">
+                Go to next section!
+            </a>
+            <a href="mailto:someone@someone.com">
+                someone@someone.com
+            </a>
+            <a href="tel:+229988877766">
+                +22 9988877766
+            </a>
+        </section>
+        <section id="sectionAboutUs" class="section section-2">
+            <a href="#sectionIntroduction" rel="">
+                Go to previous section!
+            </a>
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                Go to Google
+            </a>
+        </section>
+    </body>
+</html>

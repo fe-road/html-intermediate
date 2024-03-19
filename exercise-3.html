@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+
+        <link rel="stylesheet" href="./exercise-3.css" />
+    </head>
+    <body>
+        <section class="main-container">
+            <h1 class="title">Contact Us</h1>
+
+            <form>
+                <article class="field-container">
+                    <label class="field-label" for="fullName">Full Name</label>
+                    <input id="fullName" class="field" type="text" autofocus />
+                </article>
+            
+                <article class="field-container">
+                    <label class="field-label" for="email">Email</label>
+                    <input id="email" class="field" type="email" />
+                </article>
+            
+                <article class="field-container">
+                    <label class="field-label" for="phone">Phone</label>
+                    <input id="phone" class="field" type="tel" />
+                </article>
+            
+                <article class="field-container">
+                    <span class="field-label">I want to be contacted by:</span>
+                    <input type="radio" id="radioEmail" name="radioPreferredContact" />
+                    <label for="radioEmail">Email</label>
+            
+                    <input type="radio" id="radioPhone" name="radioPreferredContact" />
+                    <label for="radioPhone">Phone</label>
+                </article>
+            
+                <article class="field-container">
+                    <label class="field-label" for="subject">Subject</label>
+                    <select id="subject" class="field">
+                        <option>Question</option>
+                        <option>Complain</option>
+                        <option>Suggestion</option>
+                    </select>
+                </article>
+            
+                <article class="field-container">
+                    <label class="field-label" for="message">Message</label>
+                    <textarea id="message" class="field field-textarea"></textarea>
+                </article>
+            
+                <article class="field-container">
+                    <label class="field-label" for="attachment">Attachment</label>
+                    <input type="file" id="attachment" />
+                </article>
+            
+                <article class="field-container">
+                    <input type="checkbox" id="dataProtection" />
+                    <label for="dataProtection">I agree to the Data Protection Rules</label>
+                </article>
+            
+                <button class="send-button" type="button">Send</button>
+            </form>
+        </section>
+    </body>
+</html>
